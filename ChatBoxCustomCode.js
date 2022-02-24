@@ -43,7 +43,7 @@ document.addEventListener('onEventReceived', function(obj) {
           </span>
         
           <span class="message">
-            <img src="${url}" width="300"></img>
+            <img style="max-width: 400px; max-height: 800px;" src="${url}"></img>
           </span>`;
             element.appendChild(imageElement);
         }
